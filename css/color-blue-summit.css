@@ -1,0 +1,86 @@
+/*============================
+        COLOR Blue Summit
+==============================*/
+::selection {
+  background: #0056b3;
+}
+
+a, a:focus {
+  color: #0056b3;
+}
+
+a:hover, a:active {
+  color: #004494;
+}
+
+/* Extras */
+.bg-primary, .badge-primary {
+  background-color: #0056b3 !important;
+}
+
+.text-primary, .btn-link:not(.text-white):not(.text-light):not(.text-dark):not(.text-body) {
+  color: #0056b3 !important;
+}
+
+.btn-link:hover {
+  color: #004494 !important;
+}
+
+.border-primary {
+  border-color: #0056b3 !important;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.btn-primary:hover {
+  background-color: #004494;
+  border-color: #004494;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #004494;
+  border-color: #004494;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #004494;
+  border-color: #004494;
+}
+
+.btn-outline-primary, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #0056b3;
+  border-color: #0056b3;
+}
+.btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled).active:hover, .btn-outline-primary:not(:disabled):not(.disabled):active:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #fff;
+}
+
+.progress-bar,
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link, .dropdown-item.active, .dropdown-item:active {
+  background-color: #0056b3;
+}
+
+.page-item.active .page-link,
+.custom-radio .custom-control-input:checked ~ .custom-control-label:before,
+.custom-control-input:checked ~ .custom-control-label::before,
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label:before,
+.custom-control-input:checked ~ .custom-control-label:before {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.list-group-item.active {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.page-link {
+  color: #0056b3;
+}
+.page-link:hover {
+  color: #004494;
+}

@@ -1,0 +1,46 @@
+/*===========================================================
+
+   Template Name: DomainX - Domain for Sale Html Template
+   Author: Harnish Design
+   Template URL: http://demo.harnishdesign.net/html/domainX
+   Author URL: https://themeforest.net/user/harnishdesign
+   File Description : Main css file of the template
+	
+=================================================
+  Table of Contents
+=================================================
+
+	1. Basic
+	2. Helpers Classes
+	3. Layouts
+	4. Elements
+		4.1 Hero Background
+		4.2 List Style
+		4.3 Featured Box
+		4.4 Nav
+		4.5 Tabs
+		4.6 Owl Carousel
+	5. Extra
+
+=======================================================*/
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/vendor/rfs";
+
+
+// Initialize
+@import "variables";
+@import "mixins";
+
+
+// Core CSS
+@import "reset";
+@import "helpers";
+@import "layouts";
+
+
+// Content Blocks
+@import "elements";
+@import "extras";
